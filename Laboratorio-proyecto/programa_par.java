@@ -6,7 +6,6 @@ public class programa_par {
         System.out.print("Introduce un número: ");
         int numero = sc.nextInt();
 
-        // Lógica para saber si es par
         if (numero % 2 == 0) {
             System.out.println(numero + " es par.");
         } else {
